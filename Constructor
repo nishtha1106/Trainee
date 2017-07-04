@@ -1,0 +1,37 @@
+class Student
+{
+String name;
+int rollno;
+
+ void setName(String s)
+{
+s=name;
+}
+
+void getName()
+{
+System.out.println(name);
+}
+
+Student()
+{
+System.out.println("default constructor");
+}
+
+Student(String n, int r)
+{
+name=n;
+rollno=r;
+System.out.println("name is "+n+" and rollno is "+r);
+System.out.println("parameterised constructor");
+}
+public static void main(String args[])
+{
+Student s1=new Student();
+Student s2=new Student("nishtha",34);
+s1.setName("nikky");
+s1.getName();
+s2.getName();
+}
+}
+
