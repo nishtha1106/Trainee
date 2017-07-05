@@ -1,0 +1,16 @@
+class A
+{
+System.out.println("Hii");
+class B
+{
+System.out.println("Hello");
+}
+}
+class C extends A
+{
+public static void main(String args[])
+{
+A a=new A();
+//B b=new A();
+}
+}
