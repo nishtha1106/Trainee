@@ -1,0 +1,19 @@
+class A
+{
+int i;
+System.out.println("Hii");
+class B
+{
+int n;
+System.out.println("Hello");
+}
+}
+class C extends A
+{
+public static void main(String args[])
+{
+C c=new C();
+c.n=10;
+c.i=20;
+}
+}
