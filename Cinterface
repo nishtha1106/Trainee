@@ -1,0 +1,27 @@
+interface A
+{
+void show();
+}
+interface B
+{
+void display();
+}
+class Cinterface implements A,B 
+{
+public void show()
+{
+System.out.println("Hii");
+}
+public void display()
+{
+System.out.println("Hello");
+}
+
+public static void main(String agrs[])
+{
+A a=new Cinterface();
+a.show();
+B b=new Cinterface();
+b.display();
+}
+}
